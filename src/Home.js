@@ -1,26 +1,35 @@
-import logo from "./logo.svg";
+import "./Home.css";
+import Reel from "./Reel";
 
 function Home() {
   return (
     <div className="container-fluid">
-      <div className="row">
+      <div className="row d-flex">
         {/* Twitter Profile Card */}
-        <div className="col-4 profile">
+        <div className="col-3 profile align-self-center pt-3">
           <div className="card">
-            <img src={logo} className="card-img-top" alt="logo" />
+            <img
+              src="https://scontent-lga3-1.xx.fbcdn.net/v/t1.6435-9/70467024_231718311135637_4297899719281082368_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=nXiSKaFoFfwAX_Gvw2o&tn=RL-ENmwJ72XxvLvi&_nc_ht=scontent-lga3-1.xx&oh=00_AT-oWraVnReLpfELpiwN5f0c576Yqyc6E6kVA2-HQCWv6Q&oe=622CF858"
+              className="card-img-top profile-img rounded-circle mx-auto"
+              alt="logo"
+            />
             <div className="card-body">
-              <h5 className="card-title">Christina Chin</h5>
-              <p className="card-text">Undergraduate Student at Farleigh Dickinson studying Cinematography</p>
-              <a href="#" className="btn btn-primary">
-                IMDB
-              </a>
+              <h5 className="card-title text-center">Christina G. Chin</h5>
+              <p className="card-text">
+                Undergraduate Student at Fairleigh Dickinson studying Cinematography. I've worked on numerous amounts of thesis with roles including, director, camera assistant, and cinematographer.
+                You can view my{" "}
+                <a href="https://www.imdb.com/name/nm12534273/?ref_=ttfc_fc_cr32" target="_blank">
+                  IMDb
+                </a>{" "}
+                page for more of my work
+              </p>
             </div>
           </div>
         </div>
 
-        <div className="col-4"></div>
-
-        <div className="col-4"></div>
+        <div className="col-9 pt-5 align-self-center">
+          <Reel />
+        </div>
       </div>
     </div>
   );

@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import Nav from "./Nav";
 import Home from "./Home";
-import App from "./App";
+// import App from "./App";
 
 import reportWebVitals from "./reportWebVitals";
 
@@ -11,7 +11,7 @@ ReactDOM.render(
   <React.StrictMode>
     <Nav />
     <Home />
-    <App />
+    {/* <App /> */}
   </React.StrictMode>,
   document.getElementById("root")
 );
