@@ -5,7 +5,7 @@ function Reel() {
     <div>
       <h1 className="text-center">Christina Chin</h1>
       <h2 className="text-center">Reel</h2>
-      <div className="row d-flex justify-cont">
+      <div className="row d-flex justify-content-center">
           <div className="col-md-6 embed-responsive embed-responsive-16by9">
             <iframe className="embed-responsive-item" src="https://www.youtube.com/embed/EU0LjkAUQ6E"></iframe>
           </div>
