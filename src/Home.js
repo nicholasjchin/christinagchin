@@ -6,7 +6,7 @@ function Home() {
     <div className="container-fluid">
       <div className="row d-flex">
         {/* Twitter Profile Card */}
-        <div className="col-3 profile align-self-center pt-3">
+        <div className="col-md-3 profile align-self-center pt-3">
           <div className="card">
             <img
               src="https://scontent-lga3-1.xx.fbcdn.net/v/t1.6435-9/70467024_231718311135637_4297899719281082368_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=nXiSKaFoFfwAX_Gvw2o&tn=RL-ENmwJ72XxvLvi&_nc_ht=scontent-lga3-1.xx&oh=00_AT-oWraVnReLpfELpiwN5f0c576Yqyc6E6kVA2-HQCWv6Q&oe=622CF858"
@@ -27,7 +27,7 @@ function Home() {
           </div>
         </div>
 
-        <div className="col-9 pt-5 align-self-center">
+        <div className="col-md-9 pt-5 align-self-center">
           <Reel />
         </div>
       </div>
